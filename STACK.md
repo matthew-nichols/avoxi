@@ -12,6 +12,8 @@ Prettier is used for code formatting.
 
 Koa is used as the server framework. It's simple and especially useful for Node APIs.
 
+Nyc/Instanbul (https://istanbul.js.org/) is used for code coverage.
+
 # yarn commands specific to this project
 
 `yarn start`: start the program
@@ -20,6 +22,7 @@ Koa is used as the server framework. It's simple and especially useful for Node 
 `yarn fmt-check`: check the source code formatting (useful in CI)
 `yarn lint`: lint the source code
 `yarn test`: test the source code
+`yarn coverage`: see what the test suite is testing
 
 # Docker
 
